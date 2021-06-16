@@ -21,9 +21,9 @@ class SwaggerConfig {
             .apis(RequestHandlerSelectors.basePackage("com.example.swaggerkotlin"))
             //.apis(RequestHandlerSelectors.any())
             .build()
-            //.useDefaultResponseMessages(true) //
+            //.useDefaultResponseMessages(false)
             .apiInfo(metaData())
-            //.enable(true)
+            //enable(false)
     }
 
     private fun metaData(): ApiInfo {
